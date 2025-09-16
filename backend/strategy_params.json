@@ -5,10 +5,7 @@
         "MA_CROSSOVER",
         "CANDLE_PATTERN",
         "INTRA_CANDLE"
-        
     ],
-    "order_type": "LIMIT",
-    "limit_order_slippage_pct": 0.5,
     "wma_period": 9,
     "sma_period": 9,
     "rsi_period": 9,
@@ -18,5 +15,4 @@
     "atr_period": 14,
     "min_atr_value": 4,
     "ma_gap_threshold_pct": 0.05
-    
 }

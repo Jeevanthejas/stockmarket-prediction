@@ -9,6 +9,5 @@ asyncio
 SQLAlchemy
 gunicorn
 
-#source venv/bin/actviate(to be once on restart of vs code 
+# venv/bin/activate source(to be once on restart of vs code)
 # gunicorn -w 1 -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.0:8000
-gunicorn -w 1 -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.0:8000

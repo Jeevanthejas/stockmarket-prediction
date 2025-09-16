@@ -21,7 +21,7 @@ class OrderManager:
         Places an order and then enters a loop to verify its status.
         Can handle both MARKET and LIMIT orders.
         """
-        MAX_RETRIES = 3
+        MAX_RETRIES = 3 
         RETRY_DELAY_SECONDS = 2
         VERIFICATION_TIMEOUT_SECONDS = 15
 
@@ -80,4 +80,4 @@ class OrderManager:
                     await asyncio.sleep(RETRY_DELAY_SECONDS)
                 else:
                     await self.log_debug("OrderManager-CRITICAL", f"Order for {kwargs.get('tradingsymbol')} failed after {MAX_RETRIES} retries.")
-                    raise
+                    raise 

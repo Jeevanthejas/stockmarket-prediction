@@ -14,7 +14,7 @@ class KiteTickerManager:
         self.kws = KiteTicker(kite_api.API_KEY, kite_api.access_token)
         
         self.strategy = strategy_instance
-        self.main_loop = main_loop
+        self.main_loop = main_loop 
         self.is_connected = False
         
         # --- ADDED: Events to signal connection status ---
